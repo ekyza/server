@@ -69,9 +69,13 @@ The following scripts are available in `package.json`:
 
 ```
 ├── src
+│   ├── configs
+│   ├── models
+│   ├── middlewares
 │   ├── controllers
 │   ├── routes
 │   ├── services
+│   ├── repositories
 │   ├── utils
 │   ├── index.ts
 ├── prisma
