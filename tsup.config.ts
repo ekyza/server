@@ -11,5 +11,4 @@ export default defineConfig({
   dts: true,
   tsconfig: "tsconfig.json",
   minify: true,
-  external: ["express", "pg"],
 });
