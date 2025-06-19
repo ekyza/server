@@ -14,11 +14,7 @@
     "module": "NodeNext",
     "outDir": "dist",
     "sourceMap": true,
-    "noImplicitAny": true,
-    "baseUrl": "./src",
-    "paths": {
-      "@/*": ["*"]
-    }
+    "noImplicitAny": true
   },
   "include": ["src/**/*"]
 }
