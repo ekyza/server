@@ -1,8 +1,9 @@
 import express from "express";
 import cors from "cors";
 import { config } from "dotenv";
+import "module-alias/register.js";
 
-import * as RouteNotFoundHandlerMiddleware from "./middlewares/routeNotFound.middleware.js";
+import * as RouteNotFoundHandlerMiddleware from "@/middlewares/routeNotFound.middleware.js";
 
 config();
 
