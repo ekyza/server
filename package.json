@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "_moduleAliases": {
+    "@": "dist"
+  },
   "scripts": {
     "dev": "tsx watch --env-file .env src/index.ts",
     "build": "tsc",
@@ -13,17 +16,18 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@prisma/client": "^6.7.0",
+    "@prisma/client": "^6.10.1",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "module-alias": "^2.2.3"
   },
   "devDependencies": {
-    "@types/cors": "^2.8.17",
-    "@types/express": "^5.0.1",
-    "@types/node": "^22.15.12",
-    "prisma": "^6.7.0",
-    "tsx": "^4.19.4",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.3",
+    "prisma": "^6.10.1",
+    "tsx": "^4.20.3",
     "typescript": "^5.8.3"
   }
 }
