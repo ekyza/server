@@ -100,7 +100,7 @@ The following scripts are available in `package.json`:
 ├── .env
 ├── .github
 │   └── workflows
-│       └── ci-cd.yml
+│       └── ci-cd.yaml
 ├── package.json
 ├── tsconfig.json
 └── README.md
