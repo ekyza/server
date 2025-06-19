@@ -145,7 +145,7 @@ To register a new route, import and mount it **above** the `RouteNotFoundHandler
 ### Example:
 
 ```ts
-import userRoutes from "@/routes/users";
+import usersRoutes from "@/routes/users.routes.js";
 
 // Register your new route
 app.use("/users", userRoutes);
